@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	/*background-color: lightslategrey;*/
+	background-image: url(wallpaper.jpg);
+	background-color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	border:1px solid transparent;
+	padding-left: 10%;
+	padding-right: 10%;
+	min-width: 720px;
+	cursor: url(cursor2.cur),auto;	
+}
+.table{
+	margin:auto;
+	margin-bottom: 0px;
+}
+.menu{
+	position:sticky;
+	margin: auto;
+	margin-top: 50px;
+	height: 50px;
+	background-color:#323232;
+	border: 3px;
+	border-bottom-style: solid;
+	border-radius:10px;
+	border-color:darkred;
+}
+.header{
+	float:right;
+	text-align: right;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+.image{
+	float:left;
+	padding-left: 50px;
+	padding-top: 50px;
+	background-image: url(pp-trans.png);
+	background-size: 50px;
+	text-align: left;
+	margin-left: 8px;
+}
+.header ul li {
+	float: left;
+	color:darkgray;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+.header ul li a {
+	color: darkgray;
+	text-decoration: none;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header ul li:hover a {
+	color:darkred;
+}
+.type{
+	background-color: dimgrey;
+	margin:auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: auto;
+	border-top-width: 3px;
+	border-bottom-width: 4px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-radius: 10px;
+	border-color: darkred;
+	border-style:solid;
+}
+.end{
+	clear: both;
+	background-color:#323232;
+	margin-top:20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-color: darkred;
+	border-top-style:solid;
+	border-width: 3px;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	margin-bottom: -20px;
+	padding-top: 4px;
+	bottom: 0%;
+	height: 34px;
+	position:relative;
+}
+.ic1{
+	float: right;
+	margin-right:15%;
+	right:50%;
+}
+.yan_menu{
+	background-color: dimgrey;
+	width: 50px;
+	height: auto;
+}
+#sutun{
+	margin:auto;
+	height: 50%;
+	margin-right: 23%;
+	margin-left:3%;
+}

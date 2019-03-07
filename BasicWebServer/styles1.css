@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(wallpaper.jpg);
+	background-color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	cursor: url(cursor2.cur), pointer;
+}
+.all{
+	margin:auto;
+	width: 20%;
+	left: 50%;
+	top:50%;
+	margin-left:-280px; 
+	margin-top: -265px;
+	position: absolute;
+
+}
+.table{
+	width: auto;
+	height: 30%;
+	margin-top: 9%;
+	margin-bottom: 50px;
+	position: static;
+	
+	cursor: url('./cursor4.png'), auto;	
+}
+
+.resim{
+	float:left;
+	height: 300px;
+	background-color: #323232;
+	border:4px solid;
+	border-style: groove;
+	border-color:darkred;
+	border-radius: 10px;
+}
+.image{
+	margin-top: 20%;
+	background-image: url(pp-trans.png);
+	height: 200px;
+	width: 200px;
+	background-size: contain;
+}
+
+.menu{
+	margin-left: 300px;
+	margin-bottom: auto;
+}
+.menu ul{
+	list-style-type: none;
+	padding-top: 28px;
+	width: 200px;
+	color:darkgray;
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+	text-align: center;
+
+}
+.menu ul a li{
+	padding-top: 5%;
+	height: 26px;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	border: 3px solid;
+	border-radius: 10px;
+	border-style: groove;
+	border-color: darkred;
+	background-color: #323232;
+	
+}
+.menu ul a{
+	padding-top: 5%;
+	color: darkgray;
+	text-decoration: none;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+.menu ul a li:hover{
+	color:darkred;
+}
+.info{
+
+	width: 535px;
+	height: 170px;
+	background-color: #323232;
+	border-bottom-color: darkred;
+	border: 3px solid;
+	border-color: darkred;
+	border-radius: 10px;
+	border-style: groove;
+	
+	
+}
