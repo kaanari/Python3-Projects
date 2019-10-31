@@ -18,4 +18,5 @@ for _ in range(n):
     student_marks[name] = scores
 query_name = input()
 
+average(student_marks,query_name)
 
